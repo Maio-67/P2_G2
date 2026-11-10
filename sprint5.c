@@ -98,7 +98,7 @@ void apresentar_resultados(const int valores_sensor[], const double temperaturas
         printf("Temperatura mínima:%10.2f\n", calcular_minimo(temperaturas, total));
         printf("Temperatura máxima:%10.2f\n", calcular_maximo(temperaturas, total));
         printf("Temperatura média: %10.2f\n", calcular_media(temperaturas, total));
-        printf("Desvio-padrão:     %10.2f\n", calcular_desvio_padrao(temperaturas, total));
+        printf("Desvio-padrão: %10.2f\n", calcular_desvio_padrao(temperaturas, total));
     }
 }
 
