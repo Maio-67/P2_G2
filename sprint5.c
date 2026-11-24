@@ -27,7 +27,7 @@ int ler_inteiro(void) {
             c = getchar();
         }
         if (c == EOF) {
-            return VALOR_TERMINO;      // a entrada acabou
+            return VALOR_TERMINO;     
         }
         printf("Valor inválido, tente novamente.\n");
     }
